@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "webpack --mode development",
 		"watch": "webpack --mode development --watch",
-		"depoly": "webpack --mode production"
+		"depoly": "webpack --mode production",
+		"dev-server": "webpack-dev-server"
 	},
 	"keywords": [],
 	"author": "",

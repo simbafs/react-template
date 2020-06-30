@@ -1,4 +1,11 @@
+const path = require('path');
+
 module.exports = {
+	entry: './src/index.js',
+	output: {
+		path: path.join(__dirname, 'dist'),
+		filename: 'main.js'
+	},
 	module: {
 		rules: [
 			{
@@ -15,7 +22,7 @@ module.exports = {
 		]
 	},
 	devServer: {
-		contentBase: require('path').join(__dirname, 'dist'),
+		contentBase: path.join(__dirname, 'dist'),
 		compress: true,
 		port: 3000
 	}
