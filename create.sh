@@ -39,6 +39,8 @@ then
 	echo -e "\e[96m creating git repo ......\e[m"
 	rm -rf .git create.sh
 	git init
+	echo -e "\e[96m installing node modules ......\e[m"
+	npm i 
 	echo -e "\e[96m initing commit ......\e[m"
 	git add .
 	git commit -m init
