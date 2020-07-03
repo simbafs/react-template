@@ -37,7 +37,7 @@ if [[ -d $name ]];
 then
 	cd $name
 	echo -e "\e[96m creating git repo ......\e[m"
-	rm -rf .git
+	rm -rf .git create.sh
 	git init
 	echo -e "\e[96m initing commit ......\e[m"
 	git add .
