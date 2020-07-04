@@ -1,0 +1,54 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": 1,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "paths": {
+    "ROOT": "/home/simba/git/react-template",
+    "SRC": "/home/simba/git/react-template/src",
+    "DIST": "/home/simba/git/react-template/dist",
+    "ASSETS": "/home/simba/git/react-template/dist",
+    "PLUGINS": "/home/simba/git/react-template/plugins",
+    "TEMP": "/home/simba/git/react-template/tmp",
+    "ARTIFACTS": "/home/simba/git/react-template/artifacts",
+    "PUBLIC": "/home/simba/git/react-template/public",
+    "NODE_MODULES": "/home/simba/git/react-template/node_modules",
+    "EXCLUDE_MODULES": "/home/simba/git/react-template/node_modules",
+    "PACKAGE": "/home/simba/git/react-template/package.json",
+    "HTML_TEMPLATE": "/home/simba/git/react-template/dist/index.html",
+    "STATIC_DATA": "/home/simba/git/react-template/dist/staticData"
+  },
+  "plugins": [
+    "/home/simba/git/react-template"
+  ],
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
