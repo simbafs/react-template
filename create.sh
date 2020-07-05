@@ -37,11 +37,12 @@ if [[ -d $name ]];
 then
 	cd $name
 	echo -e "\e[96m creating git repo ......\e[m"
-	rm -rf .git create.sh
+	rm -rf .git create.sh install.sh
 	git init
 	echo -e "\e[96m installing node modules ......\e[m"
 	npm i 
 	echo -e "\e[96m initing commit ......\e[m"
+	echo "# $name" > README.md
 	git add .
 	git commit -m init
 	echo -e "\e[96m finish!\e[m"
