@@ -7,8 +7,7 @@
 		"dev": "webpack --mode development",
 		"watch": "webpack --mode development --watch",
 		"depoly": "webpack --mode production",
-		"dev-server": "webpack-dev-server",
-		"static": "react-static build"
+		"dev-server": "webpack-dev-server"
 	},
 	"keywords": [],
 	"author": "Simba-fs",
@@ -23,7 +22,6 @@
 		"css-loader": "^3.6.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"react-static": "^7.4.2",
 		"style-loader": "^1.2.1",
 		"webpack": "^4.43.0",
 		"webpack-cli": "^3.3.12",
